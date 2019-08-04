@@ -1,0 +1,11 @@
+[package]
+name = "concrod"
+version = "0.1.0"
+authors = ["miyagaw61 <miyagaw61@gmail.com>"]
+
+[dependencies.conrod]
+version = "0.53.0"
+features = ["glium", "winit"]
+
+[dependencies]
+renert = { git = "https://github.com/miyagaw61/renert" }
